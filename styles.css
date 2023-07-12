@@ -1,37 +1,102 @@
 
 body {
     background-color: black;
+    margin: auto; 
+    width: 90%;
+    margin-top:100px;
 }
 
 h1 {
-    color: white;
+    color: black;
 }
 
 h2 {
-    color: white;
+    color: black;
 }
 
 h3 {
-    color: white;
+    color: black;
 }
 
 h4 {
-    color: white;
+    color: black;
 }
 
 h5 {
-    color: white;
+    color: black;
 }
 
 h6 {
-    color: white;
+    color: black;
 }
 
 p {
-    color: white;
+    color: black;
 }
 
 li {
-    color: white;
+    color: black;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
+aside {
+    width: 30%;
+    float: left;
+    background-color: gainsboro;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    margin-left: 180px;
+    width: calc(100% - 322px);
+}
+
+.headerdiv {
+    background-color: gold;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+footer {
+    height: 60px;
+    margin-left: 180px;
+}
+
+.footerdiv {
+    background-color: gold;
+    text-align: center;
+    width: 100%;
+    padding: 20px 0px;
+    margin-top: 20px;
+}
+
+div {
+    background-color: gainsboro;
+    float: left;
+}
+
+.sidebar {
+    height: 100%;
+    width: 15%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: gainsboro;
+    overflow-x: hidden;
+    padding-top: 10px;
+    margin-top: 0%;
+    padding-left: 10px;
+}
+
+.sidenavp {
+    color: gainsboro;
+}
+
+.main {
+    margin-left: 14%;
+    padding: 0px 10px;
+}
