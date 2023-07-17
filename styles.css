@@ -50,7 +50,8 @@ header {
     position: fixed;
     top: 0;
     margin-left: 180px;
-    width: calc(100% - 322px);
+    margin: auto;
+    width: 100%;
 }
 
 .headerdiv {
@@ -62,7 +63,8 @@ header {
 
 footer {
     height: 60px;
-    margin-left: 180px;
+    margin: auto;
+    width: 100%;
 }
 
 .footerdiv {
