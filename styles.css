@@ -7,7 +7,7 @@ body {
    height: 400px;
    border-radius: 50%;
 }
-body .body-container .body-column {
+body .body-container .body-column, .body-block {
     margin: 60px 100px 60px;
     padding: 30px;
     border-radius: 4px;
@@ -15,12 +15,15 @@ body .body-container .body-column {
     box-shadow: 2px 2px 2px yellow;
 }
 @media (min-width: 768px) {
-    body .body-container {
+    body .body-container, .body-block {
         display: flex;
         justify-content: space-between;
     }
     body .body-container .body-column {
         flex-basis: 44%;
+    }
+    body .body-block {
+        flex-basis: 90%;
     }
 }
 
