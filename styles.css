@@ -73,6 +73,9 @@ nav .navigation-container ul li a {
   padding: 10px 5px;
   transition: all 0.9s ease-out;
 }
+nav .logo-container h2 {
+    font-style: italic;
+}
 @media (min-width: 768px) {
   nav .navigation-container ul li a {
     font-size: 1.125rem;
